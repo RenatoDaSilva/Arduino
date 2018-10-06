@@ -1,0 +1,26 @@
+<!DOCTYPE html><html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}
+.button { background-color: #195B6A; border: none; color: white; padding: 16px 40px;
+text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}
+.button2 {background-color: #77878A;}</style></head>
+  
+<body>
+<h1>Controle de L&acirc;mpadas</h1>
+  
+<p>L&acirc;mpada 1</p>
+  if (output1State=="off") {
+<p><a href="/5/on"><button class="button">Ligar</button></a></p>
+  } else {
+<p><a href="/5/off"><button class="button button2">Desligar</button></a></p>
+  } 
+     
+<p>L&acirc;mpada 2</p>
+  if (output0State=="off") {
+<p><a href="/4/on"><button class="button">Ligar</button></a></p>
+  } else {
+<p><a href="/4/off"><button class="button button2">Desligar</button></a></p>
+  }
+
+</body></html>
